@@ -15,7 +15,7 @@
     padding: 0 2em;
 }
 
-.logo {
+#logo {
     width: 160px;
     height: 160px;
     margin-top: -30px;
@@ -182,37 +182,41 @@ nav {
 .plan {
     flex: 1 1 200px;
     max-width: 275px;
-    margin-left:20px ;
+    margin-left: 20px;
     margin-right: 20px;
 
 }
-.plan ul{
+
+.plan ul {
     padding: 0;
 
 }
-.plan ul li{
+
+.plan ul li {
     list-style: none;
     height: 50px;
     line-height: 50px;
     background-color: #ffffff;
     color: #333;
-   box-shadow:7px 8px 7px rgba(0, 0, 0, 0.25);
+    box-shadow: 7px 8px 7px rgba(0, 0, 0, 0.25);
 }
-.plan .preice{
+
+.plan .preice {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-   background-color: #3BA02B;
-   color: #000000;
-   text-align: center;
-   line-height: 120px;
-   font-size: 18px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: -50px;
+    background-color: #3BA02B;
+    color: #000000;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
 }
-.plan .plan-name{
+
+.plan .plan-name {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 900;
@@ -222,7 +226,8 @@ nav {
     padding-bottom: 20px;
     height: 120px;
 }
-.plan .plan-btn{
+
+.plan .plan-btn {
     background-color: #3BA02B;
     color: #FFF;
     font-size: 24px;
@@ -230,6 +235,167 @@ nav {
     cursor: pointer;
 
 }
-.plan .recomendado{
+
+.plan .recomendado {
     background-color: #FF922E;
+}
+
+.buscar-dominio {
+    background-color: #000000;
+    text-align: center;
+    padding: 5em;
+}
+
+.buscar-dominio h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+.buscar-dominio p {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.buscar-dominio input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.buscar-dominio input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.buscar-dominio input[type=submit] {
+    background-color: #278618;
+    color: #ffff;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 34px;
+}
+
+.contato-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+
+}
+
+.contato-container h2 {
+    font-size: 36px;
+
+}
+
+.contato-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+.contato-container input,
+.contato-container textarea {
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contato-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+
+}
+
+.contato-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    background-color: #278618;
+}
+
+.rogerio {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #000000;
+    background-color: #DFDFDF;
+
+
+}
+
+@media screen and (max-width:600px) {
+    .navbar-itens li {
+        font-size: 12px;
+        margin-left: 10px;
+
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .plan {
+        max-width: 100%;
+
+    }
+
+    .buscar-dominio{
+        padding: 3em 2em;
+
+    }
+    .buscar-dominio input{
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+   .contato-container{
+    padding: 3em 2em;
+   }
+   .contato-container input, .contato-container textearea{
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+   }
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .plans-container{
+    text-align: center;
+    flex-wrap: wrap;
+   }
+   .planos-precos h1{
+        text-align: center;
+        margin-bottom: 2px;
+        margin-left: 5%
+   }
+   .planos-precos p{
+    text-align: center;
+    margin-left: 5%;
+   }
 }
